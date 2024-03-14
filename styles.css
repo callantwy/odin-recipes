@@ -1,0 +1,35 @@
+* {
+    font-family:  "Courier New", "Lucida Console", monospace;
+  }
+
+
+.heading {
+    color: orange;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-size: 25px;
+}
+
+.green-background {
+    background-color: #00ff0050;
+}
+
+li strong {
+    color: orange;
+    font-size: large;
+}
+
+.img {
+    height:auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fried-egg {
+    height:auto;
+    width: 500px;
+}
