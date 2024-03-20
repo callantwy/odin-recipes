@@ -2,28 +2,68 @@
     font-family:  "Courier New", "Lucida Console", monospace;
   }
 
+body {
+    margin: 0;
+    background-color: #042A2B;
+}
+
+.card {
+    width:70%;
+    margin: 0 auto;
+}
+
+.options li {
+    list-style: none;
+    background-color: #042A2B;
+    border: solid #EF7B45;
+    border-width: 5px 5px;
+    margin: 8px auto;
+    padding: 18px;
+    text-align: center;
+    width: 454px;
+    
+
+}
+
+.card li a {
+    font-size: larger;
+    font-weight: bold;
+    color: #EF7B45;
+    margin: 0 auto;
+}
+
+
+.options {
+    padding-inline-start: 0px;
+}
 
 .heading {
-    color: orange;
+    color: #EF7B45;
     text-align: center;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 75px;
 }
 
 h2, h3, h4 {
     font-size: 25px;
+    color: #EF7B45;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bolder;
 }
 
 .green-background {
     background-color: #00ff0050;
 }
 
-li strong {
-    color: orange;
-    font-size: large;
-}
-
 .img {
     height:auto;
-    width: 300px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,4 +72,39 @@ li strong {
 #fried-egg {
     height:auto;
     width: 500px;
+}
+
+.ghibli {
+    display:block;
+    width: 500px;
+    margin: 8px auto;
+}
+
+p {
+    color: #CDEDF6;
+}
+
+.ingredients {
+    padding-left: 0px;
+}
+
+.ingredients li {
+    color: #CDEDF6;
+    list-style: none;
+    text-align: justify;
+}
+
+.ingredients strong {
+    color: #EF7B45;
+    font-size: large;
+    
+}
+
+.instructions li{
+    color: #CDEDF6;
+}
+
+.narrow {
+    width: 70%;
+    margin: 0 auto;
 }
